@@ -1,0 +1,36 @@
+{
+  "name": "user-dashboard-example",
+  "version": "0.1.0",
+  "description": "A project based on Mirror framework",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "cross-env NODE_ENV=production webpack -p"
+  },
+  "dependencies": {
+    "antd": "^2.13.0",
+    "babel-runtime": "^6.23.0",
+    "mirrorx": "^0.2.0",
+    "natty-fetch": "^2.5.2",
+    "prop-types": "^15.5.10",
+    "query-string": "^5.0.0",
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.1",
+    "babel-core": "^6.14.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-import": "^1.4.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.14.1",
+    "babel-preset-react": "^6.14.1",
+    "babel-preset-stage-2": "^6.14.1",
+    "cross-env": "^5.0.1",
+    "css-loader": "^0.28.4",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.6.0",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
