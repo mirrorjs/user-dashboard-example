@@ -47,18 +47,17 @@ const config = {
         ]
       }
     ]
+  },
+  externals: {
+    'react': 'React',
+    'react-dom': 'ReactDOM',
+    'prop-types': 'PropTypes'
   }
 }
 
 if (process.env.NODE_ENV === 'production') {
 
   config.devtool = 'source-map'
-
-  // Exclude react and react-dom in the production bundle
-  config.externals = {
-    'react': 'React',
-    'react-dom': 'ReactDOM'
-  }
 
 } else {
 
